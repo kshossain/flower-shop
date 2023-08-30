@@ -1,0 +1,29 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 50px;
+}
+
+.banner {
+    padding-left: 140px;
+    padding-right: 120px;
+    height: 450px;
+    background-color: #E554731A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.primary-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #E55473;
+}
+.banner-image{
+    
+    width: 435px;
+    height: 450px;
+}
