@@ -30,7 +30,7 @@
 .hot-deal{
     padding-left: 140px;
     padding-right: 120px;
-    height: 450px;
+    height: 400px;
     display: flex;
     justify-content: space-evenly;
     background-color: #E554731A;
@@ -54,3 +54,18 @@
     height: 320px;
     width: 300;
 }
+.social-media{
+    max-width: 850px;
+    margin: 70px auto;
+}
+.insta-content {
+    max-width: 900px;
+    text-align: center;
+}
+.insta-image{
+    margin-top: 35px;
+}
+.insta-image> img{
+    width: 200px;
+    height: 230px;
+ } 
