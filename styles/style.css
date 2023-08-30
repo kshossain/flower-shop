@@ -27,3 +27,30 @@
     width: 435px;
     height: 450px;
 }
+.hot-deal{
+    padding-left: 140px;
+    padding-right: 120px;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E554731A;
+    align-items: center;
+}
+.new-deal{
+    text-align: center;
+}
+
+.deal{
+    color: #E55473;
+}
+
+.signup-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #E55473;
+}
+.new-flower{
+    height: 320px;
+    width: 300;
+}
