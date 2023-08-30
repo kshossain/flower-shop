@@ -75,7 +75,51 @@
 .insta-image> img{
     width: 210px;
     height: 240px;
- }
+}
+.outlet{
+    width: 830px;
+    background-color: #E554730D;
+    margin: 100px auto;
+    padding: 20px 20px 20px 40px;
+    border-radius: 5px;
+}
+
+.outlet-title{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #E55473;
+    text-align: center;
+}
+
+.outlet-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.outlet-content{
+    width: 60%;
+}
+
+.outlet-img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.branch-name{
+    color: #272727;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.branch-address{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
  
 .subscription{
     max-width: 850px;
