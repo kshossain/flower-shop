@@ -28,6 +28,7 @@
     height: 450px;
 }
 .hot-deal{
+    margin-top: 10px;
     padding-left: 140px;
     padding-right: 120px;
     height: 400px;
@@ -55,17 +56,48 @@
     width: 300;
 }
 .social-media{
-    max-width: 850px;
+    max-width: 920px;
     margin: 70px auto;
 }
 .insta-content {
-    max-width: 900px;
+    max-width: 850px;
     text-align: center;
 }
 .insta-image{
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 35px;
 }
 .insta-image> img{
-    width: 200px;
-    height: 230px;
- } 
+    width: 210px;
+    height: 240px;
+ }
+ 
+.subscription{
+    max-width: 850px;
+    margin: 70px auto;
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-size: cover;
+    
+}
+form> input[type = email] {
+    width: 400px;
+    padding: 15px 20px 15px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+form>input[type=submit] {
+    background-color: #E55473;
+    color: #fff;
+    font-weight:700;
+    margin-left: 5px;
+    width: 100px;
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
